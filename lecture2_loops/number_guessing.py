@@ -19,7 +19,7 @@ def play_game():
         elif guess > number:
             print("Too high!")
         else:
-            print("Correct! You guessed the number")
+            print(f"Correct! You guessed the number in {attempts} attempts!")
             break
     
 while True:
